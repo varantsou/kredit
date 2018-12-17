@@ -1,0 +1,245 @@
+$color: #1abcc1
+$color2: #ff586c
+$color3: #b6418a
+    
+.btn
+    font-size: 18px
+    font-weight: 600
+    color: #fff
+    text-transform: uppercase
+    text-align: center
+    padding: 9px 15px
+    display: inline-block
+    background-color: $color3
+    -webkit-border-radius: 3px
+    border-radius: 3px
+    background-repeat: no-repeat
+    background-position: 85% center
+    min-width: 135px
+    width: 100%
+    border: none
+    cursor: pointer
+    box-shadow: none
+    &:hover
+        background-color: #9f3979
+        color: #fff
+        text-decoration: none
+    &:actives, 
+    &:focus
+        outline: 0 !important
+        color: #fff !important
+        box-shadow: none!important
+
+.btn_color2
+    background-color: $color2
+    &:hover
+        background-color: #9f3979
+
+.btn_color3
+    background-color: $color
+    &:hover
+        background-color: #16a2a6
+
+.btn_color4
+    background-color: #a1a5b1
+    &:hover
+        background-color: darken(#a1a5b1, 5%)
+
+.btn_back,
+.btn_back:focus
+    padding: 9px 25px 7px!important
+    background-image: url(../img/icon/arrow-light.png)
+    background-position: 85% center
+    background-repeat: no-repeat
+
+
+@media (max-width: 991px)
+    .btn
+        font-size: 16px
+
+.btn2
+    display: block
+    padding: 6px 13px 6px 13px
+    width: 100%
+    font-size: 15px
+    font-weight: 600
+    &:focus
+        outline: 0
+
+a.btn:focus
+    color: #fff !important
+    -webkit-box-shadow: none !important
+    box-shadow: none !important
+
+.btn_icon
+    max-width: 100%
+    padding: 19px 100px 19px 140px
+    font-size: 18px
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15)
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15)
+    text-align: left
+    margin-bottom: 25px
+    position: relative
+    &:before
+        content: ''
+        width: 9px
+        height: 14px
+        position: absolute
+        top: 0
+        bottom: 3px
+        margin: auto
+        right: 65px
+        background-image: url(../img/icon/arrow-btn.png)
+
+    @media (max-width: 1199px)
+        padding: 19px 70px 19px 85px
+        font-size: 16px
+        &:before
+            right: 35px
+            bottom: 4px
+
+    @media (max-width: 991px)
+        padding: 18px 45px 17px 30px
+        font-size: 14px
+        &:before
+            right: 20px
+            bottom: 5px
+
+.btn_online
+    background-image: url(../img/icon/btn-online.png)
+    background-position: 70px center
+    margin-bottom: 45px
+    &:active
+        background-image: url(../img/icon/btn-online.png)
+
+    @media (max-width: 1199px)
+        -webkit-background-size: 40px 40px
+        background-size: 40px
+        background-position: 30px center
+
+    @media (max-width: 991px)
+        background-image: none !important
+
+    @media (max-width: 767px)
+        margin-bottom: 10px
+
+
+
+
+.btn_offline
+    background-image: url(../img/icon/btn-offline.png)
+    background-position: 70px center
+    margin-bottom: 45px
+    &:active
+        background-image: url(../img/icon/btn-offline.png)
+
+    @media (max-width: 1199px)
+        -webkit-background-size: 40px 40px
+        background-size: 40px
+        background-position: 30px center
+
+    @media (max-width: 991px)
+        background-image: none !important
+
+
+.btn.btn_offline-revers
+    color: $color
+    background-color: #fff
+    background-image: url(../img/icon/btn-offline-revers.png)
+    background-position: 40px center
+    margin-bottom: 45px
+    padding: 26px 100px 22px 120px
+    &:hover,
+    &:focus
+        color: $color!important
+        background-color: #fff
+        background-image: url(../img/icon/btn-offline-revers.png)
+    &:before
+        bottom: 1px
+        background-image: url(../img/icon/arrow-btn-revers.png)
+        
+
+
+.btn-group
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: end
+    -webkit-justify-content: flex-end
+    -ms-flex-pack: end
+    justify-content: flex-end
+    .btn
+        white-space: pre-wrap
+        margin-bottom: 15px
+        &:first-child
+            -webkit-border-radius: 3px !important
+            border-radius: 3px !important
+            margin-right: 10px !important
+        &:last-child
+            -webkit-border-radius: 3px !important
+            border-radius: 3px !important
+            margin-left: 10px !important
+
+
+
+.btn_order
+    background-image: url(../img/icon/shopping-cart.png)
+    background-position: 0 center
+    background-repeat: no-repeat
+    font-size: 16px
+    font-weight: 600
+    padding: 12px 10px 8px 35px
+    color: $color
+    text-decoration: none
+    line-height: 30px
+    &:hover,
+    &:focus
+        color: $color
+    @media (max-width: 991px)
+        margin-right: 10px
+        padding: 12px 0px 8px 28px
+        font-size: 14px
+    
+
+.btn_shop
+    position: relative
+    padding-left: 50px
+    font-size: 16px
+    font-weight: 600
+    text-decoration: none
+    display: block
+    line-height: 16px
+    color: #313549
+    height: 36px
+    &:hover,
+    &:focus
+        color: #313549
+        text-decoration: none
+    &:before
+        content: ''
+        position: absolute
+        left: 0
+        top: 0
+        width: 36px
+        height: 36px
+        background-image: url(../img/icon/shop.png)
+        background-position: center
+        background-repeat: no-repeat
+        background-size: contain
+        background-color: $color
+        border-radius: 2px
+    span
+        display: block
+        color: #313549
+        font-size: 13px
+        font-weight: 400
+    @media (max-width: 991px)
+        padding-left: 38px
+        font-size: 15px
+        span
+            font-size: 12px
+            line-height: 12px
+        &:before
+            width: 30px
+            height: 30px    

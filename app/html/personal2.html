@@ -1,0 +1,135 @@
+//= _blocks/_head
+<body>
+	//= _blocks/_headerP
+	<main class="content personal-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-2 col-md-3 pl-md-0">
+                    <ul class="personal-menu hidden-sm-down">
+                        <li class="personal-menu__item kredit"><a href="">Кредитные заявки</a></li>
+                        <li class="personal-menu__item reports isActive"><a href="">Отчеты</a></li>
+                        <li class="personal-menu__item settings">
+                            <a href="">Настройки</a>
+                            <ul class="pm-second-level" style="display: none;">
+                                <li class="isActive"><a href="">Данные пользователя</a></li>
+                                <li><a href="">Аккаунты</a></li>
+                                <li><a href="">Магазины</a></li>
+                            </ul>
+                        </li>
+                        <li class="personal-menu__item history"><a href="">История</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-10 col-md-9">
+                    <div class="personal-settings">
+                        <div class="name-plus-btn">
+                            <h1>Отчеты</h1>
+                        </div>    
+                        <div class="personal-section">
+                            <div class="filter filter_full">
+                                <div class="filter-date">
+                                    <div class="filter-date__label">Выводить заявки <br> за период:</div>
+                                    <div class="filter-date__group">
+                                        <div class="filter-date__input"><input type="text" id="datepicker"></div>
+                                        <div class="dash"> - </div>
+                                        <div class="filter-date__input"><input type="text" id="datepicker2"></div>
+                                    </div>   
+                                </div>
+                                <div class="show-all-time">
+                                    <a href="" class="btn">Показать за все время</a>
+                                </div>
+                                <div class="filter-search">
+                                    <form action="">
+                                        <input type="text" placeholder="Введите ключевое слово">
+                                        <input type="submit" class="btn" value="Найти">
+                                    </form>
+                                    <div class="clear-form"></div>
+                                </div>
+                            </div>
+                            <div class="personal-data">
+                                <div class="filter-status">
+                                    <div class="filter-status__title">Фильтр по статусу</div>
+                                    <div class="filter-status__list">
+                                        <div class="filter-status__item isChecked"><a href="">Отгруженные</a></div>
+                                        <div class="filter-status__item"><a href="">Оплаченные</a></div>
+                                        <div class="filter-status__item"><a href="">Не оплаченные</a></div>
+                                    </div>
+                                </div>
+                                <div class="data-wrapper">
+                                    <div class="table-wrapper">
+                                        <table>
+                                            <tr>
+                                                <th width="13%">
+                                                    <a href="">ID заявки
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="15%">
+                                                    <a href="">Дата
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="15%">
+                                                    <a href="">Клиент
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="15%">
+                                                    <a href="">Сумма заказа
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="13%">
+                                                    <a href="">ПВ
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="13%">
+                                                    <a href="">Переведено
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="15%">
+                                                    <a href="">Акт
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td>123456789</td>
+                                                <td>01.01.18</td>
+                                                <td>Иванов А.А.</td>
+                                                <td>1 000 000 </td>
+                                                <td>500 000</td>
+                                                <td>1 500 000</td>
+                                                <td>123</td>
+                                            </tr>  
+                                        </table>
+                                    </div>
+                                    <div class="bottom-filter bottom-filter_only-count">
+                                        <div class="count">
+                                            <div class="count__label">Количество строк</div>
+                                            <div class="select-small">
+                                                <select class="js-select">
+                                                    <option value="">20</option>
+                                                    <option value="">40</option>
+                                                    <option value="">60</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </div>    
+	</main>
+
+	//= _blocks/_footer
+
+    <script src="js/scripts.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

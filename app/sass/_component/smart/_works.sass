@@ -1,0 +1,161 @@
+.how-it-works
+    margin-bottom: 45px
+    
+.works-slider
+    background-color: #f3f4f5
+    .slick-dots
+        display: block
+        position: absolute
+        bottom: 35px
+        left: 585px
+    @media (max-width: 1199px)
+        .slick-dots
+            left: calc(50% + 30px)    
+    @media (max-width: 991px)
+        .slick-dots
+            left: calc(50% + 10px)    
+    @media (max-width: 767px)
+        .slick-dots
+            left: 0
+            right: 0
+            margin: auto
+            text-align: center 
+    
+.work
+    background-color: #f3f4f5
+    &__inner
+        display: flex
+    &__text
+        width: calc(100% - 555px)
+        padding: 45px 30px 55px 30px
+    &__title
+        font-size: 24px
+        font-family: $font2
+        margin-bottom: 32px
+    &__img
+        width: 555px    
+    p
+        font-size: 18px
+        line-height: 30px
+        margin-bottom: 30px
+    &__description
+        p:last-child
+            margin-bottom: 0
+    @media (max-width: 1199px)
+        &__img
+            width: 50%
+        &__text
+            width: 50%
+            padding: 30px 15px 55px 30px    
+        &__title
+            font-size: 20px
+            margin-bottom: 18px
+        p
+            font-size: 15px
+            line-height: 22px
+            margin-bottom: 20px
+    @media (max-width: 991px)
+        &__text
+            padding: 20px 15px 55px 15px
+        &__img
+            padding: 20px 15px 15px 15px
+    @media (max-width: 767px)
+        &__inner
+            flex-wrap: wrap
+        &__img
+            width: 100%
+            padding-bottom: 0
+        &__text
+            width: 100%                         
+
+.slider-control
+    position: relative
+    margin: 10px 0 62px
+    padding-top: 10px
+    &__inner
+        display: flex
+        flex-wrap: nowrap
+        justify-content: space-between
+        position: relative
+    &:before
+        content: ''
+        width: calc(100% - 12px)
+        height: 1px
+        background: #dddfe0
+        position: absolute
+        left: 6px
+        bottom: 11px
+    @media (max-width: 1199px)
+        margin-bottom: 45px
+    @media (max-width: 767px)
+        display: none    
+
+.line
+    background: $color
+    height: 3px
+    position: absolute
+    left: 5px
+    bottom: 10px
+    transition: all .3s
+
+.control
+    text-align: center
+    height: 85px
+    padding-bottom: 45px
+    position: relative
+    img
+        opacity: .5
+    .controlDots
+        content: ''
+        width: 26px
+        height: 26px
+        border: 1px solid transparent
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        margin: auto
+        border-radius: 50%
+        cursor: pointer
+        z-index: 1
+        &:before
+            content: ''
+            width: 6px
+            height: 6px
+            background: #000
+            position: absolute
+            left: 0
+            right: 0
+            bottom: 8px
+            margin: auto
+            border-radius: 50%
+            z-index: 2
+
+    &:first-child
+        text-align: left
+        .controlDots
+            left: 3px
+            right: auto
+    &:last-child
+        text-align: right
+        .controlDots
+            display: block
+            left: auto
+            right: 3px
+            border: 1px solid #dddfe0
+            background: #fff
+            &:before
+                width: 10px
+                height: 10px
+                bottom: 7px
+    &.isActive
+        img
+            opacity: 1
+        .controlDots
+            border: 1px solid $color
+            background: #fff
+            &:before
+                width: 10px
+                height: 10px
+                bottom: 7px
+                background: $color

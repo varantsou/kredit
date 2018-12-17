@@ -1,0 +1,297 @@
+//= _blocks/_head
+<body>
+	//= _blocks/_headerP
+	<main class="content personal-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-2 col-md-3 pl-md-0">
+                    <ul class="personal-menu hidden-sm-down">
+                        <li class="personal-menu__item kredit"><a href="">Кредитные заявки</a></li>
+                        <li class="personal-menu__item reports"><a href="">Отчеты</a></li>
+                        <li class="personal-menu__item settings isActive">
+                            <a href="">Настройки</a>
+                            <ul class="pm-second-level">
+                                <li class="isActive"><a href="">Данные пользователя</a></li>
+                                <li><a href="">Аккаунты</a></li>
+                                <li><a href="">Магазины</a></li>
+                            </ul>
+                        </li>
+                        <li class="personal-menu__item history"><a href="">История</a></li>
+                    </ul>
+                    <div class="person">
+                        <div class="person__icon">
+                            <img src="../img/content/person.png" class="img-responsive" alt="">
+                        </div> 
+                        <div class="person__status">Ваш личный менеджер:</div>
+                        <div class="person__name">Пихтелева Юлия</div>
+                        <div class="person__info">
+                            <div class="phone">
+                                8-800-755-16-40
+                                <br>доб 403
+                            </div>
+                            <div><a href="mailto:julia@mail.ru" class="email">julia@mail.ru</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10 col-md-9">
+                    <div class="personal-settings">
+                        <div class="name-plus-btn">
+                            <h1>Детальный обзор заявки №98765432</h1>
+                            <div class="btn-wrapper"><a href="" class="btn btn_color3 btn_back">Все заявки</a></div>
+                        </div>
+                        <div class="personal-section with-control">
+                            <ul class="nav nav-tabs nav-tabs_default">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#menu0">
+                                        Данные о клиенте
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#menu1">
+                                        Отгрузка
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#menu2">
+                                        История
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="menu0">
+                                    <form action="">
+                                        <div class="fiels-group">
+                                            <div class="fiels-group-name">Личные данные</div>
+                                            <div class="fiels-list">
+                                                <fieldset class="w-33 down-lg-100">
+                                                    <label for="">Фамилиия:</label>
+                                                    <input type="text" placeholder="Иванов">
+                                                </fieldset>
+                                                <fieldset class="w-33 down-lg-100">
+                                                    <label for="">Имя:</label>
+                                                    <input type="text" placeholder="Иван">
+                                                </fieldset>
+                                                <fieldset class="w-33 down-lg-100">
+                                                    <label for="">Отчество:</label>
+                                                    <input type="text" placeholder="Иванович">
+                                                </fieldset>
+                                            </div>
+                                            <div class="fiels-list">
+                                                <fieldset class="w-33 down-lg-100">
+                                                    <label for="">Дата рождения:</label>
+                                                    <div class="filter-date filter-date_big">
+                                                        <div class="filter-date__input"><input type="text" id="datepicker2" class="hasDatepicker"></div>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="fiels-group">
+                                            <div class="fiels-group-name">Данные паспорта</div>
+                                            <div class="fiels-list">
+                                                <fieldset class="w-33 down-lg-100">
+                                                    <label for="">Серия и номер:</label>
+                                                    <input type="text" placeholder="123">
+                                                </fieldset>
+                                                <fieldset class="w-33 down-lg-100">
+                                                    <label for="">Код подразделения:</label>
+                                                    <input type="text" placeholder="12345">
+                                                </fieldset>
+                                                <fieldset class="w-33 down-lg-100">
+                                                    <label for="">Дата выдачи:</label>
+                                                    <div class="filter-date filter-date_big">
+                                                        <div class="filter-date__input"><input type="text" id="datepicker3" class="hasDatepicker"></div>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                            <div class="fiels-list">
+                                                <fieldset class="w-66 down-lg-100">
+                                                    <label for="">Кем выдан:</label>
+                                                    <input type="text" placeholder="">
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="submit-block">
+                                            <input type="submit" class="btn btn_color3" value="Сохранить">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="menu1">
+                                    <div class="shipping-list">
+                                        <form class="form" action="">  
+                                            <div class="fiels-group-name"><i>Указывая Планируемую дату отгрузки Вы подтверждаете наличие товара и возможность его поставки.</i></div>
+                                            <div class="personal-product product-row">
+                                                <div class="product-column addImage">
+                                                    <div class="name">Фото товара:</div>
+                                                    <div class="input-file">
+                                                        <div class="photo-wrapper">
+                                                            <img src="img/content/default-img.png" class="img-responsive" alt="">
+                                                        </div>
+                                                        <div class="changeImage"><span>Изменить</span></div>
+                                                        <div class="removeImage"><span>Удалить</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-column right-66">
+                                                    <div class="inner-row">
+                                                        <div class="input-group">
+                                                            <div class="fiels-group">
+                                                                <div class="fiels-list">
+                                                                    <fieldset class="w-100 down-lg-100">
+                                                                        <label for="">Наименование:</label>
+                                                                        <input type="text" placeholder="">
+                                                                    </fieldset>
+                                                                </div>
+                                                                <div class="fiels-list">
+                                                                    <fieldset class="w-33 down-lg-100">
+                                                                        <label for="">Количество:</label>
+                                                                        <input type="text" placeholder="">
+                                                                    </fieldset>
+                                                                    <fieldset class="w-33 down-lg-100">
+                                                                        <label for="">Цена за единицу:</label>
+                                                                        <input type="text" placeholder="">
+                                                                    </fieldset>
+                                                                    <fieldset class="w-33 down-lg-100">
+                                                                        <label for="">Сумма:</label>
+                                                                        <input type="text" placeholder="">
+                                                                    </fieldset>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="date-group-bg">
+                                                            <div class="date-group-bg__inner">
+                                                                <fieldset class="w-100">
+                                                                    <label for="">Планируемая дата отгрузки:</label>
+                                                                    <div class="filter-date">
+                                                                        <div class="filter-date__input"><input type="text" id="datepicker4" class="hasDatepicker"></div>
+                                                                    </div>
+                                                                </fieldset>
+                                                                <fieldset class="w-100">
+                                                                    <label for="">Фактическая дата отгрузки:</label>
+                                                                    <div class="filter-date">
+                                                                        <div class="filter-date__input"><input type="text" id="datepicker5" class="hasDatepicker"></div>
+                                                                    </div>
+                                                                </fieldset>
+                                                            </div>    
+                                                        </div>     
+                                                    </div>
+                                                    <div class="inner-row">
+                                                        <div class="product-column">
+                                                            <fieldset class="w-100">
+                                                                <label for="">Примечание:</label>
+                                                                <input type="text" placeholder="">
+                                                            </fieldset>
+                                                        </div>    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-product product-row">
+                                                <div class="product-column addImage">
+                                                    <div class="name">Фото товара:</div>
+                                                    <div class="input-file">
+                                                        <div class="photo-wrapper">
+                                                            <img src="img/content/input-img.png" class="img-responsive" alt="">
+                                                        </div>
+                                                        <div class="changeImage"><span>Изменить</span></div>
+                                                        <div class="removeImage"><span>Удалить</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-column right-66">
+                                                    <div class="inner-row">
+                                                        <div class="input-group">
+                                                            <div class="fiels-group">
+                                                                <div class="fiels-list">
+                                                                    <fieldset class="w-100 down-lg-100">
+                                                                        <label for="">Наименование:</label>
+                                                                        <input type="text" placeholder="">
+                                                                    </fieldset>
+                                                                </div>
+                                                                <div class="fiels-list">
+                                                                    <fieldset class="w-33 down-lg-100">
+                                                                        <label for="">Количество:</label>
+                                                                        <input type="text" placeholder="">
+                                                                    </fieldset>
+                                                                    <fieldset class="w-33 down-lg-100">
+                                                                        <label for="">Цена за единицу:</label>
+                                                                        <input type="text" placeholder="">
+                                                                    </fieldset>
+                                                                    <fieldset class="w-33 down-lg-100">
+                                                                        <label for="">Сумма:</label>
+                                                                        <input type="text" placeholder="">
+                                                                    </fieldset>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="date-group-bg">
+                                                            <div class="date-group-bg__inner">
+                                                                <fieldset class="w-100">
+                                                                    <label for="">Планируемая дата отгрузки:</label>
+                                                                    <div class="filter-date">
+                                                                        <div class="filter-date__input"><input type="text" id="datepicker4" class="hasDatepicker"></div>
+                                                                    </div>
+                                                                </fieldset>
+                                                                <fieldset class="w-100">
+                                                                    <label for="">Фактическая дата отгрузки:</label>
+                                                                    <div class="filter-date">
+                                                                        <div class="filter-date__input"><input type="text" id="datepicker5" class="hasDatepicker"></div>
+                                                                    </div>
+                                                                </fieldset>
+                                                            </div>    
+                                                        </div>     
+                                                    </div>
+                                                    <div class="inner-row">
+                                                        <div class="product-column">
+                                                            <fieldset class="w-100">
+                                                                <label for="">Примечание:</label>
+                                                                <input type="text" placeholder="">
+                                                            </fieldset>
+                                                        </div>    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>  
+                                    </div>
+                                    <div class="control-panel">
+                                        <button class="btn btn2 btn_color2">Отказ от заявки</button>
+                                        <button class="btn btn2 btn_color3">Изменить заявку</button>
+                                        <button class="btn btn2 btn_color4"> + Добавить строку</button>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="menu2"> 
+                                    <div class="fiels-group">
+                                        <div class="form">
+                                            <div class="fiels-group-name">В данном разделе отображается история изменений текущей заявки</div>
+                                            <div class="simple-table-wrapper">
+                                                <table>
+                                                    <tr>
+                                                        <td>Переход этапа</td>
+                                                        <td>Дата</td>
+                                                        <td>Пользователь</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Этап 1</td>
+                                                        <td>23.11.1993</td>
+                                                        <td>Nic Name</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Этап 1</td>
+                                                        <td>23.11.1993</td>
+                                                        <td>Nic Name</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </div>    
+	</main>
+
+	//= _blocks/_footer
+
+	<script src="js/scripts.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

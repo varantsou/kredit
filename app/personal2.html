@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Online kredit</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.min.css">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+</head>
+<body>
+	<header class="header header_personal">
+		<div class="mobile-header hidden-md-up">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="logo">
+							<a href="/">
+								<img src="./img/logo.png" class="img-responsive" alt="">
+							</a>
+						</div>
+						<div class="mm-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-wrapper">
+			<div class="header-middle">
+				<div class="container">
+					<div class="row align-items-center">
+	                    <div class="col-12 col-xl-3 col-md-3">
+	                        <div class="logo">
+	                            <a href="">
+	                                <img src="./img/logo.png" class="img-responsive" alt="">
+	                            </a>
+	                        </div>
+	                    </div>
+						<div class="col-12 col-md-9">
+							<div class="middleBlock">
+	                            <div class="infoBlockWrapper">
+	                                <div class="infoBlock infoBlock_simple">
+	                                    Оборотные средства:
+	                                    <div class="infoBlock__price">0,00 руб.</div>
+	                                </div>
+	                                <div class="infoBlock infoBlock_simple">
+	                                    Ожидается к оплате:
+	                                    <div class="infoBlock__price">0,00 руб.</div>
+	                                </div>
+	                            </div>
+	                            <a href="" class="btn_order">Заказы</a>
+	                            <a href="" class="btn_shop">
+	                                Феникс
+	                                <span>интернет-магазин</span>
+	                            </a>
+							</div>		
+						</div>
+						<div class="hidden-md-up">
+							<ul class="personal-menu">
+								<li class="personal-menu__item kredit"><a href="">Кредитные заявки</a></li>
+								<li class="personal-menu__item reports"><a href="">Отчеты</a></li>
+								<li class="personal-menu__item settings isActive">
+									<a href="">Настройки</a>
+									<ul class="pm-second-level">
+										<li class="isActive"><a href="">Данные пользователя</a></li>
+										<li><a href="">Аккаунты</a></li>
+										<li><a href="">Магазины</a></li>
+									</ul>
+								</li>
+								<li class="personal-menu__item history"><a href="">История</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</header>
+	<main class="content personal-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-2 col-md-3 pl-md-0">
+                    <ul class="personal-menu hidden-sm-down">
+                        <li class="personal-menu__item kredit"><a href="">Кредитные заявки</a></li>
+                        <li class="personal-menu__item reports isActive"><a href="">Отчеты</a></li>
+                        <li class="personal-menu__item settings">
+                            <a href="">Настройки</a>
+                            <ul class="pm-second-level" style="display: none;">
+                                <li class="isActive"><a href="">Данные пользователя</a></li>
+                                <li><a href="">Аккаунты</a></li>
+                                <li><a href="">Магазины</a></li>
+                            </ul>
+                        </li>
+                        <li class="personal-menu__item history"><a href="">История</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-10 col-md-9">
+                    <div class="personal-settings">
+                        <div class="name-plus-btn">
+                            <h1>Отчеты</h1>
+                        </div>    
+                        <div class="personal-section">
+                            <div class="filter filter_full">
+                                <div class="filter-date">
+                                    <div class="filter-date__label">Выводить заявки <br> за период:</div>
+                                    <div class="filter-date__group">
+                                        <div class="filter-date__input"><input type="text" id="datepicker"></div>
+                                        <div class="dash"> - </div>
+                                        <div class="filter-date__input"><input type="text" id="datepicker2"></div>
+                                    </div>   
+                                </div>
+                                <div class="show-all-time">
+                                    <a href="" class="btn">Показать за все время</a>
+                                </div>
+                                <div class="filter-search">
+                                    <form action="">
+                                        <input type="text" placeholder="Введите ключевое слово">
+                                        <input type="submit" class="btn" value="Найти">
+                                    </form>
+                                    <div class="clear-form"></div>
+                                </div>
+                            </div>
+                            <div class="personal-data">
+                                <div class="filter-status">
+                                    <div class="filter-status__title">Фильтр по статусу</div>
+                                    <div class="filter-status__list">
+                                        <div class="filter-status__item isChecked"><a href="">Отгруженные</a></div>
+                                        <div class="filter-status__item"><a href="">Оплаченные</a></div>
+                                        <div class="filter-status__item"><a href="">Не оплаченные</a></div>
+                                    </div>
+                                </div>
+                                <div class="data-wrapper">
+                                    <div class="table-wrapper">
+                                        <table>
+                                            <tr>
+                                                <th width="13%">
+                                                    <a href="">ID заявки
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="15%">
+                                                    <a href="">Дата
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="15%">
+                                                    <a href="">Клиент
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="15%">
+                                                    <a href="">Сумма заказа
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="13%">
+                                                    <a href="">ПВ
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="13%">
+                                                    <a href="">Переведено
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                                <th width="15%">
+                                                    <a href="">Акт
+                                                        <span class="ui-icon ui-icon-triangle-2-n-s"></span>
+                                                    </a>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td>123456789</td>
+                                                <td>01.01.18</td>
+                                                <td>Иванов А.А.</td>
+                                                <td>1 000 000 </td>
+                                                <td>500 000</td>
+                                                <td>1 500 000</td>
+                                                <td>123</td>
+                                            </tr>  
+                                        </table>
+                                    </div>
+                                    <div class="bottom-filter bottom-filter_only-count">
+                                        <div class="count">
+                                            <div class="count__label">Количество строк</div>
+                                            <div class="select-small">
+                                                <select class="js-select">
+                                                    <option value="">20</option>
+                                                    <option value="">40</option>
+                                                    <option value="">60</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </div>    
+	</main>
+
+	<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-xl-3 col-lg-3 col-md-5">	
+						<div class="f-info">
+							<div class="f-logo">
+								<a href="">
+									<img src="./img/logo.png" class="img-responsive" alt="">
+									<span class="f-logo__text">Подбор и оформление кредитов</span>
+								</a>
+							</div>	
+							<p class="f-info__text">
+								© 2018 Все права защищены.
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-xl-6 col-lg-5 col-md-7">
+						<div class="row">
+							<div class="col-6">
+								<nav>
+									<ul class="bottom-menu">
+										<li class="bottom-menu__item"><a href="" class="bottom-menu__link">О сервисе</a></li>
+										<li class="bottom-menu__item"><a href="" class="bottom-menu__link">Наши партнеры</a></li>
+										<li class="bottom-menu__item"><a href="" class="bottom-menu__link">Партнерская программа</a></li>
+										<li class="bottom-menu__item"><a href="" class="bottom-menu__link">Контакты</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="col-6">	
+								<nav>
+									<ul class="bottom-menu">
+										<li class="bottom-menu__item"><a href="" class="bottom-menu__link">Выбрать кредит</a></li>
+										<li class="bottom-menu__item"><a href="" class="bottom-menu__link">Твой кредитный рейтинг</a></li>
+										<li class="bottom-menu__item"><a href="" class="bottom-menu__link">Онлайн-магазинам</a></li>
+										<li class="bottom-menu__item"><a href="" class="bottom-menu__link">Офлайн-магазинам</a></li>
+										<li class="bottom-menu__item"><a href="" class="bottom-menu__link">Кредитные продукты</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xl-3 col-lg-4 hidden-xs-down">
+						<div class="footer-contact">							
+							<div class="item-contact item-contact_phone">
+								<a href="+74959876543">+7 (495) 987-65-43</a>
+								<div class="call"><a href="">Заказать обратный звонок</a></div>						
+							</div>
+							<div class="item-contact item-contact_email">
+								<a href="mailto:info@onlinekredit.ru">info@onlinekredit.ru</a>							
+							</div>
+							<div class="item-contact item-contact_time">
+								Работаем: 10:00 - 20:00 пн-пт						
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-4 col-lg-3">
+						<a href="#" class="link link_simple">Политика конфиденциальности</a>
+					</div>
+					<div class="col-3 col-md-4 col-lg-3 hidden-sm-down">
+						<a href="#" class="link link_theme-style">Проверить кредитный рейтинг</a>
+					</div>
+					<div class="col-3 col-md-4 hidden-sm-down">
+						<a href="#" class="link link_theme-style no-underline">Акции</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+    <script src="js/scripts.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

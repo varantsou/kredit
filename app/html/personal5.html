@@ -1,0 +1,577 @@
+//= _blocks/_head
+<body>
+	//= _blocks/_headerP
+	<main class="content personal-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-2 col-md-3 pl-md-0">
+                    <ul class="personal-menu hidden-sm-down">
+                        <li class="personal-menu__item kredit"><a href="">Кредитные заявки</a></li>
+                        <li class="personal-menu__item reports"><a href="">Отчеты</a></li>
+                        <li class="personal-menu__item settings isActive">
+                            <a href="">Настройки</a>
+                            <ul class="pm-second-level">
+                                <li class="isActive"><a href="">Данные пользователя</a></li>
+                                <li><a href="">Аккаунты</a></li>
+                                <li><a href="">Магазины</a></li>
+                            </ul>
+                        </li>
+                        <li class="personal-menu__item history"><a href="">История</a></li>
+                    </ul>
+                    <div class="person">
+                        <div class="person__icon">
+                            <img src="../img/content/person.png" class="img-responsive" alt="">
+                        </div> 
+                        <div class="person__status">Ваш личный менеджер:</div>
+                        <div class="person__name">Пихтелева Юлия</div>
+                        <div class="person__info">
+                            <div class="phone">
+                                8-800-755-16-40
+                                <br>доб 403
+                            </div>
+                            <div><a href="mailto:julia@mail.ru" class="email">julia@mail.ru</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10 col-md-9">
+                    <div class="personal-settings">
+                        <div class="name-plus-btn">
+                            <h1>Анкета клиента</h1>
+                        </div>
+                        <div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Контактная информация</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Сумма кредита:</label>
+                                                <input type="text" placeholder="30 000">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Первоначальный взнос:</label>
+                                                <input type="text" placeholder="30 000">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Желаемый платеж:</label>
+                                                <input type="text" placeholder="30 000">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Желаемый срок выплаты кредита</label>
+                                                <select class="js-select">
+                                                    <option value="">12</option>
+                                                    <option value="">16</option>
+                                                </select>
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Девичья фамилия матери:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Кодовое слово:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Личные данные</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Фамилия:</label>
+                                                <input type="text" placeholder="30 000">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Имя:</label>
+                                                <input type="text" placeholder="30 000">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Отчество:</label>
+                                                <input type="text" placeholder="30 000">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Прежняя фамилия (если изменена):</label>
+                                                <input type="text" placeholder="30 000">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Дата рождения:</label>
+                                                <div class="filter-date">
+                                                    <div class="filter-date__input"><input type="text" id="datepicker"></div>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Пол:</label>
+                                                <div class="myCustomCheckboxGroup">
+                                                    <div class="myCustomCheckbox myCustomRadio">
+                                                        <label>
+                                                            <input class="checkbox" type="radio" checked name="checkbox-test17">
+                                                            <span class="checkbox-custom"></span>
+                                                            <span class="label">М</span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="myCustomCheckbox myCustomRadio">
+                                                        <label>
+                                                            <input class="checkbox" type="radio" name="checkbox-test17">
+                                                            <span class="checkbox-custom"></span>
+                                                            <span class="label">Ж</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Семейное положение:</label>
+                                                <input type="text" placeholder="Женат">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Количество иждевенцев:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Образование</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Образование:</label>
+                                                <select class="js-select">
+                                                    <option value="">12</option>
+                                                    <option value="">16</option>
+                                                </select>
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Название ВУЗа:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Дата ВУЗа:</label>
+                                                <div class="filter-date">
+                                                    <div class="filter-date__input"><input type="text" id="datepicker2"></div>
+                                                </div>
+                                            </fieldset>
+                                        </div>  
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Паспортные данные:</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-100 down-lg-100">
+                                                <label for="">Место рождения (указывается точно как в паспорте):</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Серия и номер:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Код подразделения:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Дата выдачи:</label>
+                                                <div class="filter-date">
+                                                    <div class="filter-date__input"><input type="text" id="datepicker3"></div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Кем выдан:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Национальность:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-group-name fiels-group-name_few">Адрес регистрации</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Населенный пункт:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">&nbsp;</label>
+                                                <fieldset class="myCustomCheckbox">
+                                                    <label>
+                                                        <input class="checkbox" type="checkbox" checked name="checkbox-test1">
+                                                        <span class="checkbox-custom"></span>
+                                                        <span class="label">Временная регистрация</span>
+                                                    </label>
+                                                </fieldset>
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Улица:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>  
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Номер дома:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Корпус:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Квартира:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>  
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Сведения о ранее выданном паспорте:</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Серия и номер:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Дата выдачи:</label>
+                                                <div class="filter-date">
+                                                    <div class="filter-date__input"><input type="text" id="datepicker4"></div>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Код подразделения:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>  
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Место проживания:</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">&nbsp;</label>
+                                                <fieldset class="myCustomCheckbox">
+                                                    <label>
+                                                        <input class="checkbox" type="checkbox" checked name="checkbox-test2">
+                                                        <span class="checkbox-custom"></span>
+                                                        <span class="label">Совпадает с адресом регистрации</span>
+                                                    </label>
+                                                </fieldset>
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Статус жилья по адресу проживания:</label>
+                                                <select class="js-select">
+                                                    <option value="">12</option>
+                                                    <option value="">16</option>
+                                                </select>
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Срок проживания на данном месте:</label>
+                                                <select class="js-select">
+                                                    <option value="">12</option>
+                                                    <option value="">16</option>
+                                                </select>
+                                            </fieldset>
+                                        </div>  
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Домашний телефон:</label>
+                                                <div class="filter-date">
+                                                    <div class="filter-date__input"><input type="text" id="datepicker4"></div>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Дополнительный номер телефон:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-group-name fiels-group-name_few">Адрес фактического проживания</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Населенный пункт:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Улица:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Номер дома:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Корпус:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Квартира:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Сведения о занятости:</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Ваш трудовой статус:</label>
+                                                <select class="js-select">
+                                                    <option value="">12</option>
+                                                    <option value="">16</option>
+                                                </select>
+                                            </fieldset>
+                                        </div>  
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Должность:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Наименование организации:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <fieldset class="w-66 down-lg-100">
+                                                    <label for="">Тип организации:</label>
+                                                    <select class="js-select">
+                                                        <option value="">12</option>
+                                                        <option value="">16</option>
+                                                    </select>
+                                                </fieldset>
+                                            </fieldset>
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Род деятельности организации:</label>
+                                                <select class="js-select">
+                                                    <option value="">12</option>
+                                                    <option value="">16</option>
+                                                </select>
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-group-name fiels-group-name_few">Адрес фактического проживания</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Населенный пункт:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-66 down-lg-100">
+                                                <label for="">Улица:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Номер дома:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Корпус:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Квартира:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Сведения о даходе:</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Общий стаж работы:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Стаж работы в данной компании:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>  
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Заработная плата <br> по основному месту работы:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Заработная плата <br> по совместительству:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Иные доходы: <br> &nbsp; </label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Сведения о собствеенности:</div>
+                                        <div class="fiels-group-name fiels-group-name_few">Сведения о недвижимости:</div>
+                                        <div class="field-list">
+                                            <div class="myCustomCheckbox-list">
+                                                <fieldset class="myCustomCheckbox">
+                                                    <label>
+                                                        <input class="checkbox" type="checkbox" checked name="checkbox-test11">
+                                                        <span class="checkbox-custom"></span>
+                                                        <span class="label">Квартира</span>
+                                                    </label>
+                                                </fieldset>
+                                                <fieldset class="myCustomCheckbox">
+                                                    <label>
+                                                        <input class="checkbox" type="checkbox" checked name="checkbox-test12">
+                                                        <span class="checkbox-custom"></span>
+                                                        <span class="label">Дача</span>
+                                                    </label>
+                                                </fieldset>
+                                                <fieldset class="myCustomCheckbox">
+                                                    <label>
+                                                        <input class="checkbox" type="checkbox" checked name="checkbox-test13">
+                                                        <span class="checkbox-custom"></span>
+                                                        <span class="label">Гараж</span>
+                                                    </label>
+                                                </fieldset>
+                                                <fieldset class="myCustomCheckbox">
+                                                    <label>
+                                                        <input class="checkbox" type="checkbox" name="checkbox-test14">
+                                                        <span class="checkbox-custom"></span>
+                                                        <span class="label">Дом</span>
+                                                    </label>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="field-list">
+                                            <div class="myCustomCheckbox-list">
+                                                <fieldset class="myCustomCheckbox">
+                                                    <label>
+                                                        <input class="checkbox" type="checkbox" name="checkbox-test15">
+                                                        <span class="checkbox-custom"></span>
+                                                        <span class="label">Земельный <br> участок</span>
+                                                    </label>
+                                                </fieldset>
+                                                <fieldset class="myCustomCheckbox">
+                                                    <label>
+                                                        <input class="checkbox" type="checkbox" name="checkbox-test16">
+                                                        <span class="checkbox-custom"></span>
+                                                        <span class="label">Прочее</span>
+                                                    </label>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Автомобиль в собственности</label>
+                                                <fieldset class="myCustomCheckbox">
+                                                    <label>
+                                                        <input class="checkbox" type="checkbox" name="checkbox-test10">
+                                                        <span class="checkbox-custom"></span>
+                                                    </label>
+                                                </fieldset>
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Марка:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Год выпуска:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Контактные лица:</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Фио контактного лица:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Мобильный телефон:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Фио контактного лица:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                            <fieldset class="w-33 down-lg-100">
+                                                <label for="">Мобильный телефон:</label>
+                                                <input type="text" placeholder="">
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-section">
+                                <form action="">
+                                    <div class="fiels-group">
+                                        <div class="fiels-group-name">Комментарии:</div>
+                                        <div class="fiels-list">
+                                            <fieldset class="w-100 down-lg-100">
+                                                <textarea></textarea>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </div>    
+	</main>
+
+	//= _blocks/_footer
+
+	<script src="js/scripts.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+.slick-arrow
+    width: 50px
+    height: 50px
+    padding: 0
+    border: none
+    background-image: url(../img/icon/arrow.png)
+    background-repeat: no-repeat
+    background-position: center
+    -webkit-box-shadow: none
+    box-shadow: none
+    background-color: transparent
+    -webkit-filter: grayscale(100%)
+    filter: grayscale(100%)
+    font-size: 0
+    -webkit-border-radius: 50%
+    border-radius: 50%
+    &:hover
+        -webkit-filter: none
+        filter: none
+    &:active, &:focus
+        outline: 0
+    &.slick-prev
+        -webkit-transform: rotate(180deg)
+        -ms-transform: rotate(180deg)
+        transform: rotate(180deg)
+
+    @media (max-width: 767px)
+        width: 60px
+        height: 60px
+
+
+.slick-dots
+    padding: 0
+    li
+        height: 6px
+        padding: 0
+        margin: 6px
+        display: inline-block
+        button
+            font-size: 0
+            border: none
+            padding: 0
+            width: 6px
+            height: 6px
+            background: #92949f
+            -webkit-border-radius: 50%
+            border-radius: 50%
+            outline: none
+            box-shadow: none
+        &.slick-active button, 
+        &:hover button
+            background: $color
+    &:focus
+        outline: none
+        box-shadow: none
+
+.nav-tabs
+    .nav-link
+        &:focus, 
+        &:hover
+            border-color: transparent
+            color: #313549
+    .nav-item.show .nav-link, 
+    .nav-link.active
+        color: #313549
+        background-color: #fff
+        border-color: transparent
+
+@media (min-width: 1200px)
+    .container
+        width: 1170px
+
+
+@media (max-width: 576px)
+    
+    .hidden-xs
+        display: none !important        

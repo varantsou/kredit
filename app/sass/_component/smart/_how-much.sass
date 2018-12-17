@@ -1,0 +1,98 @@
+.how-much
+    background: $color
+    padding: 50px 40px 40px
+    padding-right: calc(50%)
+    position: relative
+    margin-bottom: 75px
+    &__title
+        position: relative
+        z-index: 2
+        font-family: $font2
+        font-size: 48px
+        color: #fff
+        text-transform: uppercase
+        margin-bottom: 16px
+    &__description
+        position: relative
+        z-index: 2
+        font-size: 21px
+        font-weight: 700
+        line-height: 30px
+        margin-bottom: 45px
+    ul
+        margin-left: 30px
+        li
+            font-family: $default-font
+            font-weight: 600
+            background-image: url(../img/icon/list-item.png)
+            background-repeat: no-repeat
+            background-position: 0 0
+            padding-left: 50px
+            margin-bottom: 10px
+            b
+                font-weight: 700
+    &__img
+        position: absolute
+        top: 0
+        right: 0
+        height: 100%
+        z-index: 1
+        display: flex
+        align-items: flex-end
+        align-content: flex-end
+        img
+            max-width: 100%
+            max-height: 100%
+    .btn
+        position: relative
+        z-index: 2
+        margin-bottom: 15px 
+        &:hover
+            box-shadow: none
+
+    &.how-much_red
+        background-color: $color2
+        .how-much__img
+            right: 15px
+        .btn
+            background-image: url(../img/icon/btn-offline-revers__red.png)
+            color: $color2!important
+            &:hover,
+            &:focus
+                color: $color2
+            &:before
+                background-image: url(../img/icon/arrow-btn-red.png)
+
+    @media (max-width: 1199px)
+        &__title
+            font-size: 36px
+        &__description
+            font-size: 18px
+            line-height: 26px
+        .btn
+            padding: 19px 70px 19px 85px
+            background-size: 40px
+            background-position: 30px center
+    @media (max-width: 991px)
+        padding: 40px 30px 40px
+        &__img
+            display: none
+        &__description
+            margin-bottom: 30px    
+        .btn
+            max-width: 400px
+            padding: 21px 70px 17px 85px
+    @media (max-width: 767px)
+        padding: 30px 15px 30px
+        &__title
+            font-size: 28px
+        &__description
+            font-size: 15px    
+        .btn
+            padding: 21px 15px 17px 15px
+            background-image: none
+    @media (max-width: 360px)
+        .btn
+            font-size: 13px
+            &:before
+                display: none        

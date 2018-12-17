@@ -1,0 +1,52 @@
+.navigation
+    display: flex
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
+    justify-content: space-between
+    font-family: $font2
+    a
+        color: #fff
+        text-decoration: none
+        text-transform: uppercase
+        display: inline-block
+        padding: 18px 10px 16px
+        -webkit-transition: .4s
+        -o-transition: .4s
+        transition: 0.4s
+        &.isActive, 
+        &:hover
+            background-color: rgba(255, 255, 255, 0.3)
+            color: #313549
+
+    @media (max-width: 1199px)
+        a
+            font-size: 12px
+            padding: 15px 5px 13px
+
+    @media (max-width: 991px)
+        align-items: center
+        a
+            height: 48px
+            font-size: 11px
+            padding: 10px
+            display: inline-flex
+            align-items: center
+
+    @media (max-width: 767px)
+        padding: 0
+        display: block
+        height: 100%
+        z-index: 6
+        a
+            width: 100%
+            height: auto
+            display: block
+            padding: 0
+            font-size: 15px
+            letter-spacing: 1.05px
+            text-transform: none
+            margin-bottom: 15px
+            &.isActive, 
+            &:hover
+                background-color: transparent
+                color: $color3

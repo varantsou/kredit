@@ -1,0 +1,263 @@
+//= _blocks/_head
+<body>
+	//= _blocks/_headerP
+	<main class="content personal-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-2 col-md-3 pl-md-0">
+                    <ul class="personal-menu hidden-sm-down">
+                        <li class="personal-menu__item kredit"><a href="">Кредитные заявки</a></li>
+                        <li class="personal-menu__item reports"><a href="">Отчеты</a></li>
+                        <li class="personal-menu__item settings isActive">
+                            <a href="">Настройки</a>
+                            <ul class="pm-second-level">
+                                <li class="isActive"><a href="">Данные пользователя</a></li>
+                                <li><a href="">Аккаунты</a></li>
+                                <li><a href="">Магазины</a></li>
+                            </ul>
+                        </li>
+                        <li class="personal-menu__item history"><a href="">История</a></li>
+                    </ul>
+                    <div class="person">
+                        <div class="person__icon">
+                            <img src="../img/content/person.png" class="img-responsive" alt="">
+                        </div> 
+                        <div class="person__status">Ваш личный менеджер:</div>
+                        <div class="person__name">Пихтелева Юлия</div>
+                        <div class="person__info">
+                            <div class="phone">
+                                8-800-755-16-40
+                                <br>доб 403
+                            </div>
+                            <div><a href="mailto:julia@mail.ru" class="email">julia@mail.ru</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10 col-md-9">
+                    <div class="personal-settings">
+                            <h1>Настройки: Данные пользователя</h1>
+                            <div class="personal-section">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link personal-data active" data-toggle="tab" href="#menu0">
+                                            Личные данные
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link shop-data" data-toggle="tab" href="#menu1">
+                                            Данные магазина
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link personal-details" data-toggle="tab" href="#menu2">
+                                            Юридические реквизиты
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link bank-details" data-toggle="tab" href="#menu3">
+                                            Банковские реквизиты
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="menu0">
+                                        <form action="">
+                                            <div class="fiels-group">
+                                                <div class="fiels-group-name">Контактная информация</div>
+                                                <div class="fiels-list">
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Фамилиия:</label>
+                                                        <input type="text" placeholder="Иванов">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Имя:</label>
+                                                        <input type="text" placeholder="Иван">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Отчество:</label>
+                                                        <input type="text" placeholder="Иванович">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Телефон:</label>
+                                                        <input type="text" placeholder="+7 (999) 999-99-99">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Email:</label>
+                                                        <input type="text" placeholder="mail@mail.ru">
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                            <div class="fiels-group">
+                                                <div class="fiels-group-name">Изменить пароль</div>
+                                                <div class="fiels-list">
+                                                    <fieldset class="w-33 down-lg-50 down-sm-100">
+                                                        <label for="">Текущий пароль:</label>
+                                                        <input type="password" placeholder="**********">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-50 down-sm-100">
+                                                        <label for="">Новый пароль:</label>
+                                                        <input type="password" placeholder="**********">
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                            <div class="submit-block">
+                                                <input type="submit" class="btn btn_color3" value="Сохранить">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="menu1"> 
+                                        <form action="">
+                                            <div class="fiels-group">
+                                                <div class="fiels-group-name">Контактная информация магазина</div>
+                                                <div class="fiels-list">
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Название:</label>
+                                                        <input type="text" placeholder="Феникс">
+                                                    </fieldset>
+                                                    <fieldset class="w-66 down-lg-100">
+                                                        <label for="">Адрес:</label>
+                                                        <input type="text" placeholder="г.Москва, Красная площадь">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Домен:</label>
+                                                        <input type="text" placeholder="feniks.ru">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Телефон:</label>
+                                                        <input type="text" placeholder="+7 (999) 999-99-99">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Email:</label>
+                                                        <input type="text" placeholder="mail@mail.ru">
+                                                    </fieldset>
+                                                </div>
+                                                <hr>
+                                            </div>
+                                            <div class="fiels-group">
+                                                <div class="fiels-list">
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Название:</label>
+                                                        <input type="text" placeholder="Феникс">
+                                                    </fieldset>
+                                                    <fieldset class="w-66 down-lg-100">
+                                                        <label for="">Адрес:</label>
+                                                        <input type="text" placeholder="г.Москва, Красная площадь">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Домен:</label>
+                                                        <input type="text" placeholder="feniks.ru">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Телефон:</label>
+                                                        <input type="text" placeholder="+7 (999) 999-99-99">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Email:</label>
+                                                        <input type="text" placeholder="mail@mail.ru">
+                                                    </fieldset>
+                                                </div>
+                                                <hr>
+                                            </div>
+                                            <div class="place-for-group"></div>
+                                            <div class="add-place">
+                                                <button class="btn btn_color3">Добавить магазин</button>
+                                            </div>
+                                            <div class="submit-block">
+                                                <input type="submit" class="btn btn_color3" value="Сохранить">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="menu2">
+                                        <form action="">
+                                            <div class="fiels-group">
+                                                <div class="fiels-group-name">Данные о юридическом лице</div>
+                                                <div class="fiels-list">
+                                                    <fieldset class="w-66 down-lg-100">
+                                                        <label for="">Название организации:</label>
+                                                        <input type="text" placeholder="Феникс">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Адрес сайта:</label>
+                                                        <input type="text" placeholder="">
+                                                    </fieldset>
+                                                    <fieldset class="w-100">
+                                                        <label for="">ФИО руководиителя:</label>
+                                                        <input type="text" placeholder="">
+                                                    </fieldset>
+                                                    <fieldset class="w-66 down-lg-100">
+                                                        <label for="">ФИО контактного лица:</label>
+                                                        <input type="text" placeholder="">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">Телефон:</label>
+                                                        <input type="text" placeholder="+7 (999) 999-99-99">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">ИНН:</label>
+                                                        <input type="text" placeholder="">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">КПП:</label>
+                                                        <input type="text" placeholder="">
+                                                    </fieldset>
+                                                    <fieldset class="w-33 down-lg-100">
+                                                        <label for="">ОГРН:</label>
+                                                        <input type="text" placeholder="">
+                                                    </fieldset>
+                                                    <fieldset class="w-100 down-lg-100">
+                                                        <label for="">Юридический адрес:</label>
+                                                        <input type="text" placeholder="">
+                                                    </fieldset>
+                                                    <fieldset class="w-100 down-lg-100">
+                                                        <label for="">Фактический адрес:</label>
+                                                        <input type="text" placeholder="">
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                            <div class="submit-block">
+                                                <input type="submit" class="btn btn_color3" value="Сохранить">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="menu3">
+                                        <form action="">
+                                            <div class="fiels-group">
+                                                <div class="fiels-group-name">Реквизиты для перечисления денежных средств:</div>
+                                                <div class="fiels-list">
+                                                    <fieldset class="w-100">
+                                                        <label for="">Расчетный счет:</label>
+                                                        <input type="text" placeholder="Феникс">
+                                                    </fieldset>
+                                                    <fieldset class="w-100">
+                                                        <label for="">БИК банка:</label>
+                                                        <input type="text" placeholder="40702810801500009644">
+                                                    </fieldset>
+                                                    <fieldset class="w-100">
+                                                        <label for="">Наименование банка:</label>
+                                                        <input type="text" placeholder="Точка ПАО Банка ФК “Открытие” г.Екатеринбург">
+                                                    </fieldset>
+                                                    <fieldset class="w-100">
+                                                        <label for="">Корреспондентский счет:</label>
+                                                        <input type="text" placeholder="">
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                            <div class="submit-block">
+                                                <input type="submit" class="btn btn_color3" value="Сохранить">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>    
+            </div>    
+        </div>    
+	</main>
+
+	//= _blocks/_footer
+
+	<script src="js/scripts.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
